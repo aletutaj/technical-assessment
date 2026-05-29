@@ -1,5 +1,6 @@
-import { type Page, type Locator, expect } from '@playwright/test';
+import {type Page, type Locator, expect} from '@playwright/test';
 import * as path from 'path';
+
 declare const __dirname: string;
 
 export class TablePage {

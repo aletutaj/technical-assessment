@@ -2,11 +2,11 @@ const tbody = document.getElementById('portfolio-body');
 const totalAssetInput = document.getElementById('total-asset');
 
 const initialSecurities = [
-    { symbol: 'IBM',  targetPct: 20, currentPct: 10, unitPrice: 150 },
-    { symbol: 'MSFT', targetPct: 20, currentPct: 20, unitPrice: 90 },
-    { symbol: 'ORCL', targetPct: 20, currentPct: 30, unitPrice: 220 },
-    { symbol: 'AAPL', targetPct: 20, currentPct: 20, unitPrice: 450 },
-    { symbol: 'HD',   targetPct: 20, currentPct: 20, unitPrice: 70 }
+    {symbol: 'IBM', targetPct: 20, currentPct: 10, unitPrice: 150},
+    {symbol: 'MSFT', targetPct: 20, currentPct: 20, unitPrice: 90},
+    {symbol: 'ORCL', targetPct: 20, currentPct: 30, unitPrice: 220},
+    {symbol: 'AAPL', targetPct: 20, currentPct: 20, unitPrice: 450},
+    {symbol: 'HD', targetPct: 20, currentPct: 20, unitPrice: 70}
 ];
 
 function renderTable() {

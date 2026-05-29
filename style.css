@@ -1,4 +1,3 @@
-/* Podstawowe wyrównanie i prosta czcionka */
 body {
     font-family: sans-serif;
     padding: 20px;
@@ -13,7 +12,6 @@ body {
     border: 1px solid #ccc;
 }
 
-/* Stylizacja pól formularza i tabeli */
 .asset-input-group {
     margin-bottom: 15px;
 }
@@ -39,7 +37,6 @@ input[type="number"] {
     padding: 4px;
 }
 
-/* Przycisk akcji */
 button {
     margin-top: 15px;
     padding: 10px 15px;
