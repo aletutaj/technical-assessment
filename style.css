@@ -1,0 +1,47 @@
+/* Podstawowe wyrównanie i prosta czcionka */
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Stylizacja pól formularza i tabeli */
+.asset-input-group {
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+input[type="number"] {
+    width: 70px;
+    padding: 4px;
+}
+
+/* Przycisk akcji */
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}

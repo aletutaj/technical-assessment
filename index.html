@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+
+  <div class="asset-input-group">
+    <label for="total-asset">Total Asset ($):</label>
+    <input type="number" id="total-asset" data-testid="total-asset-input" value="100000">
+  </div>
+
+  <table id="portfolio-table">
+    <thead>
+    <tr>
+      <th>Security</th>
+      <th>Target %</th>
+      <th>Current %</th>
+      <th>Variance %</th>
+      <th>Unit Price ($)</th>
+      <th>Output (Shares to Buy/Sell)</th>
+      <th>Action</th> </tr>
+    </thead>
+    <tbody id="portfolio-body">
+    </tbody>
+  </table>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
